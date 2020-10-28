@@ -37,6 +37,8 @@ Foram automatizados testes para todos as funcionalidades propostas no documento,
     </li>
 </ul>
 
+<b>Observação</b>: dois testes estão quebrados por não cumprirem o comportamento ideal de fluxo de resposta (análise pessoal). Um deles tem a ver com o tamanho do campo de salário que não foi limitado no front, de forma que é passado um número gigante e quebra. O outro é que o endpoint de alterar funcionário, quando passa o id de empregado 0, insere um novo registro. Neste caso, por não saber a regra de negócio exatamente, é retornada falha no teste.
+
 ## Padrão de projeto:
 
 Aplicação do conceito de Page Object.
@@ -49,7 +51,6 @@ Devem estar instalados na máquina:
     <li>Navegador Google Chorme Versão 86.0.4240.111 (Versão oficial) 64 bits</li>
     <li>Navegador Firefox Browser 82.0 (64-bits)</li>
 </ul>
-<br/>
 
 ## Execução:
 
