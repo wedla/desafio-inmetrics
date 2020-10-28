@@ -63,3 +63,7 @@ Em um console, executar a seguinte linha de comando: <br/>
 ## Relatórios:
 
 Ao fim do processo de build, será criado um diretório de reports na pasta raiz do projeto, onde dentro estarão incluídos os arquivos de relatório sobre a execução dos testes, sendo eles test-report-api.html (testes de Webservice) e test-report-ui.html (testes de interface). </br>
+
+## Jenkins:
+
+No arquivo jenkins-evidencias.rar estão alguns prints mostrando a configuração e o console de saída do projeto no Jenkins. No print onde são apresentados os resultados, vê-se erros de sessão relacionados ao driver do Chrome, mas isso aconteceu pois a janela do navegador foi fechada antes de o teste ser finalizado.
