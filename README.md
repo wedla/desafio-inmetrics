@@ -18,6 +18,7 @@ Foram automatizados testes para todos as funcionalidades propostas no documento,
         3. Funcionário (Cadastrar / Editar / excluir)
     </li>
 </ul>
+</br>
 <b>Webservice:</b> 
 <ul>
     <li>
@@ -31,9 +32,6 @@ Foram automatizados testes para todos as funcionalidades propostas no documento,
     </li>
     <li>
         4. Alterar usuário (PUT) – Empregado Controller
-    </li>
-    <li>
-    Validar o valor total dos produtos
     </li>
 </ul>
 
