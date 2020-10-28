@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty", "html:reports/test-report"}, 
+@CucumberOptions(plugin = {"pretty", "html:reports/test-report-api.html"}, 
 	features = "src/test/resources/features/api",
 	glue = { "br.com.inmetrics.stepsDefinitions.api" })
 public class RunCucumberaAPITest {
